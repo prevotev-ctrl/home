@@ -32,7 +32,6 @@ export default function Page() {
     border: "1px solid #e5e5e5",
     borderRadius: 12,
   };
-
   const inputS: React.CSSProperties = {
     flex: 1,
     padding: "12px 14px",
@@ -40,13 +39,12 @@ export default function Page() {
     borderRadius: 10,
     fontSize: 16,
   };
-
   const btnS: React.CSSProperties = {
     padding: "12px 16px",
     border: "1px solid #111",
     borderRadius: 10,
     background: "#111",
-    color: "white",
+    color: "#fff",
     fontWeight: 600,
     cursor: "pointer",
   };
